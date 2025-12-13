@@ -1,1 +1,17 @@
+Linked List — Theory Summary
 
+A linked list is a linear data structure where elements (called nodes) are stored non-contiguously in memory.
+Each node contains:
+Data — the actual value
+Reference (link) — the address of the next node (pointer)
+
+The list starts with a head node, and the last node points to null.
+
+Why Linked Lists Exist
+Arrays are great, but they have limits:
+1.Fixed size
+2.Costly insertions and deletions
+
+Linked lists solve this by:
+1.Allowing dynamic size
+2.Making insertions and deletions easier (no shifting needed)
